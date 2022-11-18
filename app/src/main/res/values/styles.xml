@@ -20,4 +20,12 @@
         <item name="android:textSize">36dp</item>
     </style>
 
+    <style name="UserListFont" parent="userHomeFont">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="EmailListFont" >
+        <item name="android:textSize">15dp</item>
+    </style>
+
 </resources>
