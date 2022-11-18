@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="fontFamily">@font/poppins</item> <!-- target android sdk versions < 26 and > 14 if theme other than AppCompat -->
+    </style>
+
+    <style name="smallFont">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="userHomeFont" parent="smallFont">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="selUserHomeFont" parent="userHomeFont">
+        <item name="android:textSize">36dp</item>
+    </style>
+
+</resources>
